@@ -1,0 +1,141 @@
+footer {
+  padding: 120px 0;
+  background-color: #0a083b;
+  color: white;
+}
+
+.eget-mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+
+.get-email-subheading {
+  max-width: 55%;
+  color: #999;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+footer h2 {
+  max-width: 700px;
+  margin-top: 20px;
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 45px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.email-text {
+  color: #f3f4f4;
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.email-input {
+  width: 480px;
+  border-style: none none solid;
+  border-color: #f3f4f4;
+  background-color: transparent;
+  outline: none;
+  height: 38px;
+  padding: 20px 12px;
+  margin-bottom: 112px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+}
+
+.email-input:focus {
+  border-color: #3898EC;
+}
+
+.email-submit {
+  background-image: url(/img/arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 50% 50%;
+  padding: 9px 15px;
+  border: 0;
+  cursor: pointer;
+  margin-left: -30px;
+  margin-top: 3px;
+  transition: all 300ms ease-out;
+}
+
+.email-submit:hover {
+  margin-left: -25px;
+}
+
+
+footer hr {
+  color: #1d1b4a;
+  background-color: #1d1b4a;
+  border: none;
+  height: 2px;
+}
+
+.footer {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 0px 20px;
+}
+
+.dev-credits {
+  max-width: 300px;
+  margin-top: 20px;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.dev-credits a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  width: 30px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.footer-title {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.footer-link {
+  display: block;
+  color: #ffffffb3;
+  transition: color 300ms;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}

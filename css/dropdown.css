@@ -1,0 +1,134 @@
+.nav-with-dropdown {
+  color: #283338;
+}
+
+.dropdown-menu {
+  position: absolute;
+  display: block;
+  opacity: 1;
+  top: 50px;
+  left: -120px;
+  background-color: white;
+  transition: all 200ms ease-out;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
+}
+
+.dropdown-menu:hover {
+  opacity: 1;
+  display: block;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
+}
+
+.dropdown-animation {
+  opacity: 0;
+  transform: translate3d(0px, 15px, 0px) scale3d(0.9, 0.9, 1);
+}
+
+.dropdown-display-none {
+  display: none;
+}
+
+.dropdown-square {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 13px;
+  left: 45%;
+  transform: rotate(-45deg);
+  background-color: white;
+}
+
+.dropdown-content {
+  border-radius: 10px;
+  box-shadow: 4px -19px 35px 0 rgb(32 53 90 / 8%), 11px 11px 30px -10px rgb(32 53 90 / 15%);
+}
+
+.dropdown-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: content-box;
+  width: 330px;
+  height: 52px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: white;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.dropdown-item:hover {
+  transform: scale(1.05);
+  box-shadow: 7px 15px 45px 2px rgba(123, 136, 168, 0.2);
+  opacity: 0.9;
+}
+
+.item-1 {
+  z-index: 40;
+}
+
+.item-2 {
+  z-index: 30;
+}
+
+.item-3 {
+  z-index: 20;
+}
+
+.item-4 {
+  z-index: 10;
+}
+
+.dropdown-icon {
+  width: 52px;
+  height: 52px;
+  padding: 14px;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+}
+
+.dropdown-icon img {
+  width: 100%;
+}
+
+.dropdown-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 20px;
+  height: 100%;
+}
+
+.dropdown-title {
+  margin-bottom: 2px;
+  color: #0a083b;
+  font-size: 15px;
+}
+
+.dropdown-subtitle {
+  color: #57586e;
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+.dropdown-second {
+  left: -20px;
+}
+
+.privacy-container {
+  padding: 20px;
+  background-color: #fafafa;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.privacy-container div {
+  font-size: 14px;
+  padding-bottom: 5px;
+  line-height: 1.7;
+  cursor: pointer;
+  color: #283338;
+}
+
+.privacy-container div:hover {
+  color: #0047f0;
+}
