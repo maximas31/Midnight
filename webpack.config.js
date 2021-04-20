@@ -1,34 +1,18 @@
-'use strict';
-
-let path = require('path');
+// const path = require('path');
+// const outputDir = path.resolve(__dirname, 'dist');
 
 module.exports = {
-  mode: 'production',
-  entry: './js/script.js',
-  output: {
-    filename: 'bundle.js',
-    path: __dirname + '/js'
-  },
-  watch: true,
-
-  devtool: "source-map",
-
-  module: {
-    rules: [
-      {
-        test: /\.m?js$/,
-        exclude: /(node_modules|bower_components)/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: [['@babel/preset-env', {
-                debug: true,
-                corejs: 3,
-                useBuiltIns: "usage"
-            }]]
-          }
-        }
-      }
-    ]
-  }
+    // entry: path.resolve(__dirname, 'src'),
+    output: {
+        // path: outputDir,
+        filename: 'bundle.js'
+    },
+    mode: 'production',
+    module: {
+        rules: [{
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: ['babel-loader']
+        }]
+   }
 };

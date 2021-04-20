@@ -1,0 +1,39 @@
+@import "../../vendor/css/normalize.min";
+
+@import "font";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+
+}
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.display-none {
+  display: none;
+}
+
+@import "../../components/global-alert/global-alert";
+@import "../../components/header/header";
+@import "../../components/button/button";
+@import "../../components/header/navigation/navigation";
+@import "../../components/header/navigation/menu-item/menu-item";
+@import "../../components/header/navigation/dropdown-menu/dropdown-menu";
+@import "../../components/hero/hero";
+@import "../../components/trust/trust";
+@import "../../components/about/about";
+@import "../../components/about/tabs/tabs";
+@import "../../components/testimonial/testimonial";
+@import "../../components/get-started/get-started";
+@import "../../components/footer/footer";
+@import "../../components/footer/get-email/get-email";

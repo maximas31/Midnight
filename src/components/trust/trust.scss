@@ -1,0 +1,23 @@
+.trust {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 100px;
+
+  &__text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #57586e;
+  }
+
+  &__logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  &__logo {
+    width: 200px;
+  }
+}

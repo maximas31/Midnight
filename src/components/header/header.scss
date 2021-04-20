@@ -1,0 +1,24 @@
+.header {
+  &__wrapper {
+    height: 105px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  &__logo {
+    height: 50px;
+    img {
+      height: 100%;
+    }
+  }
+
+  &__navigation {
+    margin-left: 47px;
+  }
+
+  &__button {
+    margin-left: auto;
+  }
+}

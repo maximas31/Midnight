@@ -1,0 +1,30 @@
+.navigation {
+  &__item {
+    position: relative;
+    padding: 20px 7px;
+    margin: 0 5px;
+    color: #57586e;
+    display: flex;
+    cursor: pointer;
+    transition: all 200ms ease;
+  
+    &:hover {
+      color: #0047f0;
+  
+      .navigation__icon {
+        transform: rotate(180deg);
+        filter: invert(16%) sepia(100%) saturate(3212%) hue-rotate(222deg) brightness(99%) contrast(111%);
+      }
+    }
+  }
+  
+  &__icon {
+    margin-left: 4px;
+    padding: 0 3px;
+    transition: all 300ms;
+  
+    img {
+      width: 10px;
+    }
+  }
+}

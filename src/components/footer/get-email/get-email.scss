@@ -1,0 +1,73 @@
+.get-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 90px;
+
+  &__subheading {
+    max-width: 55%;
+    color: #999;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  &__heading {
+      max-width: 700px;
+      margin-top: 20px;
+      font-size: 50px;
+      line-height: 1.2;
+      margin-bottom: 45px;
+      color: #fff;
+      font-weight: 600;
+  }
+
+  &__text {
+    color: #f3f4f4;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 8px;
+  }
+
+  &__input-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  &__input {
+    width: 480px;
+    border-style: none none solid;
+    border-color: #f3f4f4;
+    background-color: transparent;
+    outline: none;
+    height: 38px;
+    padding: 20px 12px;
+    margin-bottom: 112px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+
+    &:focus {
+      border-color: #3898EC;
+    }
+  }
+
+  &__submit {
+    background-image: url('../img/arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: 50% 50%;
+    padding: 9px 15px;
+    border: 0;
+    cursor: pointer;
+    margin-left: -30px;
+    margin-top: 3px;
+    transition: all 300ms ease-out;
+
+    &:hover {
+      margin-left: -25px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.get-started {
+  padding: 120px 0;
+
+  &__wrapper {
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__content {
+    max-width: 40%;
+  }
+
+  &__title {
+    color: #0a083b;
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  &__text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #57586e;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  &__image {
+    padding-left: 20px;
+    max-width: 55%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

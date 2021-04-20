@@ -1,0 +1,73 @@
+.testimonial {
+  padding: 120px 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__video {
+    position: relative;
+    display: flex;
+    max-width: 627px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    &:hover .testimonial__play-button {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+  }
+
+  &__play-button {
+    position: absolute;
+    width: 95px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+  }
+
+  &__video-image {
+    width: 100%;
+  }
+
+  &__text {
+    max-width: 513px;
+    margin-bottom: 35px;
+    color: #57586e;
+    font-size: 26px;
+    line-height: 1.7;
+  }
+
+  &__author-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__author {
+    color: #57586e;
+    font-size: 17px;
+    line-height: 1.5;
+
+    span {
+      font-weight: 600;
+      font-size: 18px;
+      color: #0a083b;
+    }
+  }
+
+  &__logo {
+    max-width: 110px;
+    margin-top: 5px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
