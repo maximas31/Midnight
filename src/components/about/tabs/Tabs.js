@@ -1,5 +1,3 @@
-import { TabItem } from "./tab-item";
-
 class Tabs {
   rootNode
   tabNodes
